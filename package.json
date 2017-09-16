@@ -1,11 +1,27 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**.test.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "should": "^13.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suwit37433/testuser.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/suwit37433/testuser/issues"
+  },
+  "homepage": "https://github.com/suwit37433/testuser#readme",
+  "description": ""
 }
